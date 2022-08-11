@@ -19,3 +19,17 @@ if (confirm("show the welcoming message!") == true) {
         alert("You entered the gender incorrectly")
       }
 } 
+let x=prompt("qqqqq","yes or no");
+const arr=new Array();
+switch(x){
+  case "yes":
+    arr.push(x);
+    break;
+    case "no":
+      arr.push(x);
+      break;
+      default:
+        arr.push("invaled");
+}
+
+console.log(arr);
