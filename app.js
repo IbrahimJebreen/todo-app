@@ -19,7 +19,7 @@ if (confirm("show the welcoming message!") == true) {
         alert("You entered the gender incorrectly")
       }
 } 
-let x=prompt("Quastion 1","yes or no");
+let x=prompt("Are you married?","yes or no");
 const arr=new Array();
 switch(x){
   case "yes":
@@ -31,7 +31,7 @@ switch(x){
       default:
         arr.push("invaled");
 }
- let z=prompt("Quastion 2","yes or no");
+ let z=prompt("Are you Arab?","yes or no");
 switch(z){
   case "yes":
     arr.push(z);
@@ -43,7 +43,7 @@ switch(z){
         arr.push("invaled");
 }
 
-let a=prompt("Quastion 3","yes or no");
+let a=prompt("can you swim?","yes or no");
 switch(a){
   case "yes":
     arr.push(a);
